@@ -9,7 +9,7 @@ st.sidebar.title("Settings")
 MODEL_PATH = hf_hub_download(repo_id="AtharvaNaik/bert-toxicity", filename="bert_finetuned.pth")
 
 # ✅ Load tokenizer and model
-st.title("🚀 Toxic Comment Classifier (BERT)")
+st.title("Atharva Naik 124B2B011 : Toxic Comment Classifier (BERT)")
 
 device = torch.device("cpu")
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
